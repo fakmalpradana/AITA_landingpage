@@ -1,5 +1,28 @@
 {
   "dependencies": {
-    "next": "^13.4.7"
-  }
+    "create-next-app": "^13.4.7",
+    "next": "^13.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "aita_landingpage",
+  "description": "Repo ini digunakan untuk mengembangkan website PT. ARCI INTERTRADE INDONESIA\r Copyright 2023",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fakmalpradana/AITA_landingpage.git"
+  },
+  "keywords": [
+    "aita"
+  ],
+  "author": "fairuzakmal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fakmalpradana/AITA_landingpage/issues"
+  },
+  "homepage": "https://github.com/fakmalpradana/AITA_landingpage#readme"
 }
