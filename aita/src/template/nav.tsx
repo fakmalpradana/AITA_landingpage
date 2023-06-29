@@ -1,11 +1,10 @@
-import { headers } from "next/dist/client/components/headers"
 import Link from "next/link"
 import '../styles/header-module.css'
  
 export default function Header() {
   return(
     <header className="container">
-      <div>
+      <div className="">
         <ul className="list">
           <li className="item">
             <Link href="/">
