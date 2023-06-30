@@ -72,6 +72,11 @@ body {
   border-radius: 25px; 
 }
 
+.box3{
+  width: 250px;
+  height: 250px;
+}
+
 .sisha{
   background-image: url("../../public/img/Shisha_2.jpg");
 }
@@ -102,4 +107,20 @@ body {
 
 .sdgs17{
   background-image: url("../../public/img/E_Inverted_SDG_goals_17.png");
+}
+
+.core1{
+  background-image: url("../../public/img/integrity.png");
+}
+
+.core2{
+  background-image: url("../../public/img/growth.png");
+}
+
+.core3{
+  background-image: url("../../public/img/innovative.png");
+}
+
+.core4{
+  background-image: url("../../public/img/collab.png");
 }

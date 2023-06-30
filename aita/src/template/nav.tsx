@@ -3,7 +3,7 @@ import '../styles/header-module.css'
  
 export default function Header() {
   return(
-    <header className="container">
+    <header className="container z-10">
       <div className="">
         <ul className="list">
           <li className="item">

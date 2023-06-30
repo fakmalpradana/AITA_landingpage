@@ -4,8 +4,10 @@ export default function Home() {
   return (
     <main className="w-screen">
       {/* START NAVBAR */}
+      <div className="z-10">
+        <Header></Header>
+      </div>
       
-      <Header></Header>
       {/* END NAVBAR */}
       <div className="home">
 
@@ -35,7 +37,7 @@ export default function Home() {
         <div className="product main-bg pb-14">
           <h1 className="text h-full py-20 mt-20 text-center font-bold text-4xl">PRODUCT</h1>
 
-          <div className="grid grid-cols-3 mx-20">
+          <div className="grid grid-cols-3 mx-20 z-0">
             <div className="product1 box sisha mx-auto bg-contain hover:-translate-y-10 hover:scale-110 duration-300"></div>
 
             <div className="product2 box bbq mx-auto bg-contain hover:-translate-y-10 hover:scale-110 duration-300"></div>
@@ -44,16 +46,16 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-3 mx-20">
-            <div className="product1 brown font-bold text-xl hover:text-white pt-10 text-center">
-              <a href="">Sisha/Hookah Charcoal Briquette</a>
+            <div className="product1 text font-bold text-2xl hover:text-white pt-10 text-center">
+              <a href="">Sisha/Hookah <span className="brown">Charcoal </span>Briquette</a>
             </div>
 
-            <div className="product2 brown font-bold text-xl hover:text-white pt-10 text-center">
-              <a href="">BBQ Charcoal Briquette</a>
+            <div className="product2 text font-bold text-2xl hover:text-white pt-10 text-center">
+              <a href="">BBQ <span className="brown">Charcoal </span>Briquette</a>
             </div>
 
-            <div className="product3 brown font-bold text-xl hover:text-white pt-10 text-center">
-              <a href="">Coconut Shell Charcoal</a>
+            <div className="product3 text font-bold text-2xl hover:text-white pt-10 text-center">
+              <a href="">Coconut Shell <span className="brown">Charcoal</span></a>
             </div>
           </div>
         </div>
@@ -62,7 +64,7 @@ export default function Home() {
 
         {/* aboutus section */}
 
-        <div className="aboutus main-bg">
+        <div className="aboutus main-bg pb-14">
           <h1 className="text h-full py-20 text-center font-bold text-4xl">ABOUT <span className="brown">US</span></h1>
 
           <div className="text">
@@ -71,22 +73,54 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="sdgs grid grid-cols-5 mx-32 pt-14">
-            <div className="sdgs07 text box2 sisha mx-auto bg-contain hover:-translate-y-5 hover:scale-110 duration-300"></div>
+          <div className="sdgs grid grid-cols-5 mx-32 pt-14 z-0">
+            <div className="sdgs07 box2 sisha mx-auto bg-contain hover:-translate-y-5 hover:scale-110 duration-300"></div>
 
-            <div className="sdgs08 text box2 bbq mx-auto bg-contain hover:-translate-y-5 hover:scale-110 duration-300"></div>
+            <div className="sdgs08 box2 bbq mx-auto bg-contain hover:-translate-y-5 hover:scale-110 duration-300"></div>
 
-            <div className="sdgs11 text box2 coconut mx-auto bg-contain hover:-translate-y-5 hover:scale-110 duration-300"></div>
+            <div className="sdgs11 box2 coconut mx-auto bg-contain hover:-translate-y-5 hover:scale-110 duration-300"></div>
 
-            <div className="sdgs13 text box2 bbq mx-auto bg-contain hover:-translate-y-5 hover:scale-110 duration-300"></div>
+            <div className="sdgs13 box2 bbq mx-auto bg-contain hover:-translate-y-5 hover:scale-110 duration-300"></div>
 
-            <div className="sdgs17 text box2 coconut mx-auto bg-contain hover:-translate-y-5 hover:scale-110 duration-300"></div>
+            <div className="sdgs17 box2 coconut mx-auto bg-contain hover:-translate-y-5 hover:scale-110 duration-300"></div>
           </div>
         </div>
 
         {/* aboutus section */}
 
         {/* core value section */}
+
+        <div className="coreval main-bg pb-14">
+          <h1 className="text h-full py-20 text-center font-bold text-4xl"><span className="brown">CORE </span>VALUE</h1>
+
+          <div className="grid grid-cols-4 mx-64 z-0">
+            <div className="core1 rounded-full box3 mx-auto bg-containhover:-translate-y-3 hover:scale-90 duration-300"></div>
+
+            <div className="core2 rounded-full box3 mx-auto bg-containhover:-translate-y-3 hover:scale-90 duration-300"></div>
+
+            <div className="core3 rounded-full box3 mx-auto bg-containhover:-translate-y-3 hover:scale-90 duration-300"></div>
+
+            <div className="core4 rounded-full box3 mx-auto bg-containhover:-translate-y-3 hover:scale-90 duration-300"></div>
+          </div>
+
+          <div className="grid grid-cols-4 mx-64">
+            <div className="text font-bold text-2xl pt-10 text-center">
+              <p>Integrity</p>
+            </div>
+
+            <div className="brown font-bold text-2xl pt-10 text-center">
+              <p>Growth</p>
+            </div>
+
+            <div className="text font-bold text-2xl pt-10 text-center">
+              <p>Innovative</p>
+            </div>
+
+            <div className="brown font-bold text-2xl pt-10 text-center">
+              <p>Collaborative</p>
+            </div>
+          </div>
+        </div>
         {/* core value section */}
 
 
