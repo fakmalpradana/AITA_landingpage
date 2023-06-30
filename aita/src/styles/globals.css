@@ -77,6 +77,11 @@ body {
   height: 250px;
 }
 
+.box4{
+  width: 200px;
+  height: 200px;
+}
+
 .sisha{
   background-image: url("../../public/img/Shisha_2.jpg");
 }
@@ -123,4 +128,27 @@ body {
 
 .core4{
   background-image: url("../../public/img/collab.png");
+}
+
+.email{
+  background-image: url("../../public/img/email.png");
+}
+
+.office{
+  background-image: url("../../public/img/office.png");
+}
+
+.phone{
+  background-image: url("../../public/img/phone.png");
+}
+
+.footer-bg{
+  background-color: #282a3a;
+}
+
+.logoaita2{
+  background-image: url("../../public/img/LOGO\ AITA\ NAMA\ SAMPING.png");
+  width: 404px;
+  height: 148px;
+  margin: auto;
 }

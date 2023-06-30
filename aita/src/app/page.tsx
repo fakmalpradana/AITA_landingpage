@@ -11,7 +11,7 @@ export default function Home() {
       {/* END NAVBAR */}
       <div className="home">
 
-        <div className="logoAITA"></div> 
+        <div id="home" className="logoAITA"></div> 
 
         <h1 className="text mt-10 mb-28 text-center font-bold text-4xl">
           INDONESIA <span className="brown">TRADING</span> COMPANY
@@ -34,7 +34,7 @@ export default function Home() {
 
         {/* product section */}
 
-        <div className="product main-bg pb-14">
+        <div id="product" className="product main-bg pb-14">
           <h1 className="text h-full py-20 mt-20 text-center font-bold text-4xl">PRODUCT</h1>
 
           <div className="grid grid-cols-3 mx-20 z-0">
@@ -46,15 +46,15 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-3 mx-20">
-            <div className="product1 text font-bold text-2xl hover:text-white pt-10 text-center">
+            <div className="product1 text font-bold text-2xl hover:drop-shadow-md pt-10 text-center">
               <a href="">Sisha/Hookah <span className="brown">Charcoal </span>Briquette</a>
             </div>
 
-            <div className="product2 text font-bold text-2xl hover:text-white pt-10 text-center">
+            <div className="product2 text font-bold text-2xl hover:drop-shadow-md pt-10 text-center">
               <a href="">BBQ <span className="brown">Charcoal </span>Briquette</a>
             </div>
 
-            <div className="product3 text font-bold text-2xl hover:text-white pt-10 text-center">
+            <div className="product3 text font-bold text-2xl hover:drop-shadow-md pt-10 text-center">
               <a href="">Coconut Shell <span className="brown">Charcoal</span></a>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function Home() {
 
         {/* aboutus section */}
 
-        <div className="aboutus main-bg pb-14">
+        <div id="aboutus" className="aboutus main-bg pb-14">
           <h1 className="text h-full py-20 text-center font-bold text-4xl">ABOUT <span className="brown">US</span></h1>
 
           <div className="text">
@@ -94,34 +94,79 @@ export default function Home() {
           <h1 className="text h-full py-20 text-center font-bold text-4xl"><span className="brown">CORE </span>VALUE</h1>
 
           <div className="grid grid-cols-4 mx-64 z-0">
-            <div className="core1 rounded-full box3 mx-auto bg-containhover:-translate-y-3 hover:scale-90 duration-300"></div>
+            <div className="core1 rounded-full box3 mx-auto bg-contain hover:-translate-y-3 hover:scale-90 duration-300"> </div>
 
-            <div className="core2 rounded-full box3 mx-auto bg-containhover:-translate-y-3 hover:scale-90 duration-300"></div>
+            <div className="core2 rounded-full box3 mx-auto bg-contain hover:-translate-y-3 hover:scale-90 duration-300"></div>
 
-            <div className="core3 rounded-full box3 mx-auto bg-containhover:-translate-y-3 hover:scale-90 duration-300"></div>
+            <div className="core3 rounded-full box3 mx-auto bg-contain hover:-translate-y-3 hover:scale-90 duration-300"> </div>
 
-            <div className="core4 rounded-full box3 mx-auto bg-containhover:-translate-y-3 hover:scale-90 duration-300"></div>
+            <div className="core4 rounded-full box3 mx-auto bg-contain hover:-translate-y-3 hover:scale-90 duration-300"> </div>
           </div>
 
           <div className="grid grid-cols-4 mx-64">
-            <div className="text font-bold text-2xl pt-10 text-center">
-              <p>Integrity</p>
+            <p className="text font-bold text-2xl pt-10 text-center">Integrity</p>
+
+            <p className="brown font-bold text-2xl pt-10 text-center">Growth</p>
+
+            <p className="text font-bold text-2xl pt-10 text-center">Innovative</p>
+
+            <p className="brown font-bold text-2xl pt-10 text-center">Collaborative</p>
+          </div>
+
+        </div>
+
+        {/* core value section */}
+
+        {/* contact us section */}
+
+        <div id="contact" className="contact main-bg pb-14 pt-10">
+          <h1 className="text h-full py-20 text-center font-bold text-4xl">CONTACT <span className="brown">US</span></h1>
+
+          <div className="grid grid-cols-3 mx-72 z-0">
+            <div className="email rounded-full box4 mx-auto bg-contain">
+              <p className="brown font-bold text-2xl pt-60 text-center">EMAIL US</p>
             </div>
 
-            <div className="brown font-bold text-2xl pt-10 text-center">
-              <p>Growth</p>
+            <div className="office rounded-full box4 mx-auto bg-contain">
+              <p className="brown font-bold text-2xl pt-60 text-center">OFFICE</p>
             </div>
 
-            <div className="text font-bold text-2xl pt-10 text-center">
-              <p>Innovative</p>
-            </div>
-
-            <div className="brown font-bold text-2xl pt-10 text-center">
-              <p>Collaborative</p>
+            <div className="phone rounded-full box4 mx-auto bg-contain">
+              <p className="brown font-bold text-2xl pt-60 text-center">PHONE</p>
             </div>
           </div>
+
+          <div className="grid grid-cols-3 mx-72 my-24">
+            <div>
+              <p className="text font-normal text-lg pt-70 text-center">Our friendly team is here to help</p>
+              <br /><br />
+              <p className="text font-semibold text-lg pt-70 text-center">emailaita@gmail.com</p>
+            </div>
+
+            <div>
+              <p className="text font-normal text-lg pt-70 text-center">Come visit and let's collaborate and<br />grow together</p>
+              <br />
+              <p className="text font-semibold text-lg pt-70 text-center">Jl. Kasatrian, Condongcatur,<br />Depok, Sleman, D.I Yogyakarta<br />INDONESIA</p>
+            </div>
+
+            <div>
+              <p className="text font-normal text-lg pt-70 text-center">Ask whatever you need, we will<br />provide the best solution</p>
+              <br />
+              <p className="text font-semibold text-lg pt-70 text-center">(ID) +62 821 1234 8989</p>
+            </div>
+            
+          </div>
         </div>
-        {/* core value section */}
+
+        {/* contact us section */}
+
+        {/* footer section */}
+
+        <div className="footer footer-bg pt-10">
+          <div className="logoaita2 bg-contain"></div>
+          <p className="text-inherit py-5 text-center">&copy;2023. PT. Arci Intertrade Indonesia.</p>
+        </div>
+        {/* footer section */}
 
 
         

@@ -7,22 +7,22 @@ export default function Header() {
       <div className="">
         <ul className="list">
           <li className="item">
-            <Link href="/">
+            <Link href="./#home">
               Home
             </Link>
           </li>
           <li className="item">
-            <Link href="/">
+            <Link href="./#product">
               Product
             </Link>
           </li>
           <li className="item">
-            <Link href="/">
+            <Link href="./#aboutus">
               About Us
             </Link>
           </li>
           <li className="item brown">
-            <Link href="/">
+            <Link href="./#contact">
               Contact
             </Link>
           </li>
