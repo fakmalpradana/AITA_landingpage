@@ -54,5 +54,26 @@ body {
   width: 137px;
   height: 90px;
   background-image: url("../../public/img/site\ icon\ 1.png");
-  
+}
+
+.product{
+  background-color: #1a1a1a;
+}
+
+.box{
+  width: 400px;
+  height: 400px;
+  border-radius: 50px;
+}
+
+.sisha{
+  background-image: url("../../public/img/Shisha_2.jpg");
+}
+
+.bbq{
+  background-image: url("../../public/img/BBQ_1.jpg");
+}
+
+.coconut{
+  background-image: url("../../public/img/Coconut_2.jpg");
 }

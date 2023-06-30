@@ -24,8 +24,19 @@ export default function Home() {
             <p className="text text-3xl text-end font-semibold mt-12 right-7 px-7 absolute inline-block">the <span className="brown">best quality</span></p>
             <p className="text text-3xl text-end font-semibold mt-20 right-7 px-7 py-2 absolute inline-block">goods worldwide</p>
           </div>
+        </div>
 
-          
+        <div className="product">
+          <h1 className="text h-full py-20 mt-20 text-center font-bold text-4xl">PRODUCT</h1>
+
+          <div className="grid grid-cols-3">
+            <div className="product1 text box sisha mx-auto bg-contain hover:-translate-y-10 hover:scale-110 duration-300"></div>
+
+            <div className="product2 text box bbq mx-auto bg-contain hover:-translate-y-10 hover:scale-110 duration-300"></div>
+
+            <div className="product3 text box coconut mx-auto bg-contain hover:-translate-y-10 hover:scale-110 duration-300"></div>
+          </div>
+
         </div>
         
       </div>
