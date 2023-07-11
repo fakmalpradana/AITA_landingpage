@@ -38,7 +38,7 @@ body {
 }
 
 .home{
-  background-image: url('../../public/img/Header\ Wallpaper.svg');
+  background-image: url('../../public/img/Testing\ Background\ Web_3.jpg');
   height: 990px;
   padding-top: 50px;
 }
@@ -115,19 +115,19 @@ body {
 }
 
 .core1{
-  background-image: url("../../public/img/integrity.png");
+  background-image: url("../../public/img/Integrity_Core_Value.png");
 }
 
 .core2{
-  background-image: url("../../public/img/growth.png");
+  background-image: url("../../public/img/Growth_Core\ Value.png");
 }
 
 .core3{
-  background-image: url("../../public/img/innovative.png");
+  background-image: url("../../public/img/Innovative_Core\ Value.png");
 }
 
 .core4{
-  background-image: url("../../public/img/collab.png");
+  background-image: url("../../public/img/Collaborative_Core\ Value.png");
 }
 
 .email{

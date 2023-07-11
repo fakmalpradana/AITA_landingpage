@@ -69,8 +69,11 @@ export default function Home() {
           <h1 className="text h-full py-20 text-center font-bold text-4xl">ABOUT <span className="brown">US</span></h1>
 
           <div className="text">
-            <p className="text mx-64 text-center text-xl">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati quasi modi doloribus recusandae sequi amet minima excepturi quo corrupti cum rem, doloremque ipsam maiores consequuntur, distinctio rerum iusto sapiente ex enim ducimus vero facere impedit quibusdam nihil. Excepturi veniam nobis qui sed minus debitis quasi eveniet. Eum enim magni sit non eius. Neque animi consequuntur repellendus doloremque voluptas dolore nulla deleniti, iusto omnis corporis, vero porro officia, amet culpa ipsa accusantium vel ea qui. Earum cum quis aut itaque, eius porro nobis? Corrupti porro magni voluptas vero a veniam magnam. Exercitationem quaerat fugit perferendis repellat adipisci laboriosam sunt fugiat nihil.
+            <p className="text mx-80 text-center text-xl">
+              Arci Intertrade Indonesia (AITA) is a trading company provide commodities and specialty products to fulfill the international and local market through various project. We commite to involve the waste management to production process for produce products with world standard quality. Every project we run having priority to involve local people to empowering them and support local economic. We dream big to give significant impact for supporting SDGs program.
+            </p>
+            <p className="p-5 brown mx-80 font-semibold text-xl text-center">
+              Start Small for Big Thinks
             </p>
           </div>
 
@@ -95,13 +98,13 @@ export default function Home() {
           <h1 className="text h-full py-20 text-center font-bold text-4xl"><span className="brown">CORE </span>VALUE</h1>
 
           <div className="grid grid-cols-4 mx-64 z-0">
-            <div className="core1 rounded-full box3 mx-auto bg-contain hover:-translate-y-3 hover:scale-90 duration-300"> </div>
+            <div className="core1 rounded-full box3 mx-auto bg-contain hover:-translate-y-3 hover:scale-105 duration-300"> </div>
 
-            <div className="core2 rounded-full box3 mx-auto bg-contain hover:-translate-y-3 hover:scale-90 duration-300"></div>
+            <div className="core2 rounded-full box3 mx-auto bg-contain hover:-translate-y-3 hover:scale-105 duration-300"></div>
 
-            <div className="core3 rounded-full box3 mx-auto bg-contain hover:-translate-y-3 hover:scale-90 duration-300"> </div>
+            <div className="core3 rounded-full box3 mx-auto bg-contain hover:-translate-y-3 hover:scale-105 duration-300"> </div>
 
-            <div className="core4 rounded-full box3 mx-auto bg-contain hover:-translate-y-3 hover:scale-90 duration-300"> </div>
+            <div className="core4 rounded-full box3 mx-auto bg-contain hover:-translate-y-3 hover:scale-105 duration-300"> </div>
           </div>
 
           <div className="grid grid-cols-4 mx-64">
