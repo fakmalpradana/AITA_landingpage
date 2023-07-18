@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  width: 100%;
+  height: 100%;
+  background-color: #1a1a1a;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -44,15 +50,15 @@ body {
 }
 
 .logoAITA{
-  width: 500px;
-  height: 577px;
+  /* width: 500px;
+  height: 577px; */
   background-image: url('../../public/img/Logo\ AITA.png');
   margin: auto;
 }
 
 .dc-logo{
-  width: 137px;
-  height: 90px;
+  /* width: 137px;
+  height: 90px; */
   background-image: url("../../public/img/site\ icon\ 1.png");
 }
 
@@ -150,5 +156,12 @@ body {
   background-image: url("../../public/img/LOGO\ AITA\ NAMA\ SAMPING.png");
   width: 404px;
   height: 148px;
+  margin: auto;
+}
+
+.m-logoaita2{
+  background-image: url("../../public/img/LOGO\ AITA\ NAMA\ SAMPING.png");
+  width: 202px;
+  height: 79px;
   margin: auto;
 }
