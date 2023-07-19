@@ -3,27 +3,27 @@ import '../styles/header-module.css'
  
 export default function Header() {
   return(
-    <header className="m-container md:container z-10">
-      <div className="">
+    <header className="">
+      <div className="container1">
         <ul className="list">
-          <li className="m-item md:item">
+          <li className="m-item">
             <Link href="./#home">
-              Home
+              <p className="md:text-xl md:mr-5">Home</p>
             </Link>
           </li>
           <li className="m-item md:item">
-            <Link href="/product">
-              Product
+            <Link href="/#product">
+            <p className="md:text-xl md:mr-5">Product</p>
             </Link>
           </li>
           <li className="m-item md:item">
             <Link href="./#aboutus">
-              About Us
+            <p className="md:text-xl md:mr-5">About Us</p>
             </Link>
           </li>
           <li className="m-item md:item brown">
             <Link href="./#contact">
-              Contact
+            <p className="md:text-xl">Contact</p>
             </Link>
           </li>
         </ul>
