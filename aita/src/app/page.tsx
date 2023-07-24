@@ -42,22 +42,31 @@ export default function Home() {
           <div className="grid lg:grid-cols-3 md:mx-20 z-0 grid-rows-none">
             <div className="md:grid-rows-2 md:pt-10 lg:pt-0">
               <div className="product1 rounded-3xl h-64 w-64 xl:h-[400px] xl:w-[400px] sisha mx-auto bg-contain hover:-translate-y-10 hover:scale-110 duration-300"></div>
-              <div className="text font-bold text-2xl pt-5 text-center">
-                <a href="">Sisha/Hookah <span className="brown">Charcoal </span>Briquette</a>
+              <div className="text font-bold text-2xl pt-5 text-center grid grid-rows-none">
+                <p>Sisha/Hookah <span className="brown">Charcoal </span>Briquette</p>
+                <a href="./product/sisha-hookah">
+                  <button className="sec-bg hover:bg-yellow-800 text mx-auto mt-5 py-2 px-5 rounded-xl text-md font-semibold">Learn more</button>
+                </a>
               </div>
             </div>
 
             <div className="md:grid-rows-2 md:pt-10 lg:pt-0">
               <div className="product2 rounded-3xl md:mt-0 xl:h-[400px] xl:w-[400px] mt-12 h-64 w-64 bbq mx-auto bg-contain hover:-translate-y-10 hover:scale-110 duration-300"></div>
-              <div className="text font-bold text-2xl pt-5 text-center">
-                <a href="">BBQ <span className="brown">Charcoal </span>Briquette</a>
+              <div className="text font-bold text-2xl pt-5 text-center grid grid-rows-none">
+                <p>BBQ <span className="brown">Charcoal </span>Briquette</p>
+                <a href="./product/bbq">
+                  <button className="sec-bg hover:bg-yellow-800 text mx-auto mt-5 py-2 px-5 rounded-xl text-md font-semibold">Learn more</button>
+                </a>
               </div>
             </div>
             
             <div className="md:grid-rows-2 md:pt-10 lg:pt-0">
               <div className="product3 rounded-3xl md:mt-0 xl:h-[400px] xl:w-[400px] mt-12 h-64 w-64 coconut mx-auto bg-contain hover:-translate-y-10 hover:scale-110 duration-300"></div>
-              <div className="text font-bold text-2xl pt-5 text-center">
-                <a href="">Coconut Shell <span className="brown">Charcoal</span></a>
+              <div className="text font-bold text-2xl pt-5 text-center grid grid-rows-none">
+                <p>Coconut Shell <span className="brown">Charcoal</span></p>
+                <a href="./product/coconut-shell">
+                  <button className="sec-bg hover:bg-yellow-800 text mx-auto mt-5 py-2 px-5 rounded-xl text-md font-semibold">Learn more</button>
+                </a>
               </div>
             </div>
             

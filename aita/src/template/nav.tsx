@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container1">
         <ul className="list">
           <li className="m-item">
-            <Link href="./#home">
+            <Link href="/#home">
               <p className="md:text-xl md:mr-5">Home</p>
             </Link>
           </li>
@@ -17,12 +17,12 @@ export default function Header() {
             </Link>
           </li>
           <li className="m-item md:item">
-            <Link href="./#aboutus">
+            <Link href="/#aboutus">
             <p className="md:text-xl md:mr-5">About Us</p>
             </Link>
           </li>
           <li className="m-item md:item brown">
-            <Link href="./#contact">
+            <Link href="/#contact">
             <p className="md:text-xl">Contact</p>
             </Link>
           </li>

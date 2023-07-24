@@ -66,6 +66,10 @@ body {
   background-color: #1a1a1a;
 }
 
+.sec-bg{
+  background-color: #c69749;
+}
+
 .box{
   width: 400px;
   height: 400px;
@@ -100,8 +104,16 @@ body {
   background-image: url("../../public/img/BBQ_1.jpg");
 }
 
+.bbq1{
+  background-image: url("../../public/img/BBQ_2.jpg");
+}
+
 .coconut{
   background-image: url("../../public/img/Coconut_2.jpg");
+}
+
+.coconut1{
+  background-image: url("../../public/img/Coconut_1.jpg");
 }
 
 .sdgs07{

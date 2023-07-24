@@ -2,7 +2,7 @@ import Header from "@/template/nav";
 import Footer from "@/template/footer";
 import Border from "@/template/border";
 
-export default function sisha_hookah() {
+export default function bbq() {
     return(
         <main className="w-screen">
             {/* START NAVBAR */}
@@ -25,8 +25,8 @@ export default function sisha_hookah() {
 
             <div className="grid gap-10 grid-rows-none md:grid-cols-2 main-bg pt-10 justify-items-center pb-20 px-20">
                 
-                <div className="sisha w-56 h-56 md:w-[300px] md:h-[300px] bg-contain rounded-2xl"></div>
-                <div className="sisha1 w-56 h-56 md:w-[300px] md:h-[300px] bg-contain rounded-2xl"></div>
+                <div className="bbq w-56 h-56 md:w-[300px] md:h-[300px] bg-contain rounded-2xl"></div>
+                <div className="bbq1 w-56 h-56 md:w-[300px] md:h-[300px] bg-contain rounded-2xl"></div>
 
             </div>
 
@@ -34,77 +34,75 @@ export default function sisha_hookah() {
 
             <div className="main-bg flex justify-center pb-10">
                 <table className="table-auto text text-center text-sm md:text-lg border-collapse">
-                    <tbody>
+                    <tbody> 
                         <Border></Border>
                         <tr>
                             <th className="pr-10 brown">Dimension</th>
                             <th className="pl-10 font-normal">
-                                Cube C20 - 20 x 20 x 20 mm
+                                Hexagonal - 50 x 200 mm
                                 <br />
-                                Cube C22 - 22 x 22 x 22 mm
+                                Hexagonal - 50 x 150 mm
                                 <br />
-                                Cube C25 - 25 x 25 x 25 mm
+                                Hexagonal - 50 x 100 mm
                                 <br />
-                                Cube C26 - 26 x 26 x 26 mm
+                                Hexagonal - 50 x 50 mm
                                 <br />
-                                Flat - 25 x 25 x 15 mm
+                                Hexagonal - 40 x 200 mm
+                                <br />
+                                Hexagonal - 40 x 150 mm
+                                <br />
+                                Hexagonal - 40 x 100 mm
+                                <br />
+                                Hexagonal - 40 x 50 mm
+                                <br />
+                                Stick/Finger - 22 x 50 mm 
+                                <br />
+                                Stick/Finger - 25 x 50 mm
+                                <br />
+                                Stick/Finger - 22 x 40 mm 
+                                <br />
+                                Stick/Finger - 25 x 40 mm
                             </th>
                         </tr>
                         <Border></Border>
                         <tr>
                             <th className="pr-10 brown">Material</th>
-                            <th className="pl-10 font-normal">100% Coconut Shell Charcoal</th>
+                            <th className="pl-10 font-normal">50% Coconut Shell Charcoal + 50% Hardwood Charcoal</th>
                         </tr>
                         <Border></Border>
                         <tr>
                             <th className="pr-10 brown">Ash Content</th>
-                            <th className="pl-10 font-normal">1.8% - 2.5%</th>
+                            <th className="pl-10 font-normal">8% - 10%</th>
                         </tr>
                         <Border></Border>
                         <tr>
                             <th className="pr-10 brown">Ash Color</th>
-                            <th className="pl-10 font-normal">White/Light Grey</th>
+                            <th className="pl-10 font-normal">White/Silver</th>
                         </tr>
                         <Border></Border>
                         <tr>
                             <th className="pr-10 brown">Calorie Value</th>
-                            <th className="pl-10 font-normal">7000 - 7500 KCal/Kg</th>
+                            <th className="pl-10 font-normal">6000 KCal/Kg</th>
                         </tr>
                         <Border></Border>
                         <tr>
                             <th className="pr-10 brown">Moisture</th>
-                            <th className="pl-10 font-normal">Less than 5%</th>
+                            <th className="pl-10 font-normal">Less than 6%</th>
                         </tr>
                         <Border></Border>
                         <tr>
                             <th className="pr-10 brown">Fix Carbon</th>
-                            <th className="pl-10 font-normal">Over than 80</th>
+                            <th className="pl-10 font-normal">Over than 75</th>
                         </tr>
                         <Border></Border>
                         <tr>
                             <th className="pr-10 brown">Burning Time</th>
-                            <th className="pl-10 font-normal">90 - 120 minutes</th>
-                        </tr>
-                        <Border></Border>
-                        <tr>
-                            <th className="pr-10 brown">Ignition Time</th>
-                            <th className="pl-10 font-normal">2 - 5 minutes</th>
+                            <th className="pl-10 font-normal">5 - 6 Hours</th>
                         </tr>
                         <Border></Border>
                         <tr>
                             <th className="pr-10 brown">Volatile Matter</th>
-                            <th className="pl-10 font-normal">14%</th>
-                        </tr>
-                        <Border></Border>
-                        <tr>
-                            <th className="pr-10 brown">Packaging</th>
-                            <th className="pl-10 font-normal">
-                                Small box - 500 gram or 1 Kg 
-                                <br />
-                                Master box - 10 Kg or 20 Kg 
-                                <br />
-                                <span className="italic">*for any custom size, brand and design please contact us</span>
-                            </th>
+                            <th className="pl-10 font-normal">15%</th>
                         </tr>
                         <Border></Border>
                         <tr>
@@ -112,7 +110,7 @@ export default function sisha_hookah() {
                             <th className="pl-10 font-normal">Free from Odor, Smoke, Spark, Crack & Chemical</th>
                         </tr>
                         <Border></Border>
-                    </tbody>
+                    </tbody> 
                 </table>
             </div>
             
