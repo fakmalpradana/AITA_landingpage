@@ -14,21 +14,26 @@ export default function Home() {
 
         <div className="logoAITA w-64 h-64 bg-contain bg-center bg-no-repeat justify-center md:w-[500px] md:h-[577px]"></div> 
 
-        <h1 className="text mt-10 mb-28 text-center font-bold text-xl md:text-4xl">
+        <h1 className="text mt-10 text-center font-bold text-xl md:text-4xl">
           INDONESIA <span className="brown">TRADING</span> COMPANY
         </h1>
+
+        <div className="text pt-7 text-center font-medium text-lg md:text-3xl">
+          <p>Provide <span className="brown">Indonesian</span></p>
+          <p><span className="brown">Commodities</span> to Worldwide</p>
+        </div>
 
         {/* header section */}
 
         <div className="ml-7">
           <div className="h-10 md:mt-16 md:ml-10 bg-no-repeat bg-contain md:grid md:grid-cols-none">
-            <div className="dc-logo mt-32 md:mt-0 md:h-[90px] h-10 bg-no-repeat bg-contain"></div>
-            <p className="text font-semibold mt-4 md:text-3xl md:mt-2 md:ml-32 md:px-7 absolute inline-block">Our Project</p>
-            <p className="text brown font-semibold mt-8 md:text-3xl md:mt-12 md:ml-32 md:px-7 absolute inline-block">DeCharcoal Coco</p>
+            <div className="dc-logo mt-10 md:mt-0 md:h-[90px] h-10 bg-no-repeat bg-contain"></div>
+            {/* <p className="text text-end font-semibold mt-4 md:text-3xl md:mt-2 md:ml-32 md:px-7 absolute inline-block">Our Project</p>
+            <p className="text text-end brown font-semibold mt-8 md:text-3xl md:mt-12 md:ml-32 md:px-7 absolute inline-block">DeCharcoal Coco</p> */}
 
-            <p className="text md:text-3xl text-end font-semibold right-7 md:px-7 absolute inline-block">Ready to Deliver</p>
-            <p className="text md:text-3xl text-end font-semibold mt-4 md:mt-7 right-7 md:px-7 absolute inline-block">the <span className="brown">best quality</span></p>
-            <p className="text md:text-3xl text-end font-semibold mt-8 md:mt-12 right-7 md:px-7 md:py-2 absolute inline-block">goods worldwide</p>
+            {/* <p className="text md:text-3xl text-end font-semibold right-7 md:px-7 absolute inline-block">Our Project</p> */}
+            <p className="text md:text-3xl text-end font-semibold mt-2 md:mt-2 md:right-7 md:px-7 absolute inline-block">Our Project</p>
+            <p className="brown md:text-3xl text-end font-semibold mt-8 md:mt-12 md:right-7 md:px-7 md:py-2 absolute inline-block">DeCharcoal Coco</p>
           </div>
         </div>
 
@@ -174,7 +179,9 @@ export default function Home() {
               <div>
                 <p className="text font-normal lg:text-lg pt-70 text-center">Our friendly team is here to help</p>
                 {/* <br /><br /> */}
-                <p className="text font-semibold lg:text-lg pt-70 text-center">emailaita@gmail.com</p>
+                <p className="text font-semibold lg:text-lg pt-70 text-center hover:text-yellow-600">
+                  <a href="mailto:contact@aita-export.com">contact@aita-export.com</a>
+                </p>
               </div>
             </div>
 
@@ -196,7 +203,11 @@ export default function Home() {
               <div>
                 <p className="text font-normal lg:text-lg pt-70 text-center">Ask whatever you need, we will<br />provide the best solution</p>
                 {/* <br /> */}
-                <p className="text font-semibold lg:text-lg pt-70 text-center">(ID) +62 821 1234 8989</p>
+                <p className="text font-semibold lg:text-lg pt-70 text-center hover:text-yellow-600">
+                  <a href="https://wa.me/62882003757947" target="_blank">
+                    (ID) +62 882 0037 57947
+                  </a>
+                </p>
               </div>
             </div>
           

@@ -77,7 +77,7 @@ export default function bbq() {
                         <Border></Border>
                         <tr>
                             <th className="pr-10 brown">Ash Color</th>
-                            <th className="pl-10 font-normal">White/Silver</th>
+                            <th className="pl-10 font-normal">Light Gray/Silver</th>
                         </tr>
                         <Border></Border>
                         <tr>
