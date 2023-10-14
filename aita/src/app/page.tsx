@@ -1,6 +1,7 @@
 import Header from "@/template/nav"
 import Footer from "@/template/footer"
 
+
 export default function Home() {
   return (
     <main className="">
@@ -23,57 +24,67 @@ export default function Home() {
           <p><span className="brown">Commodities</span> to Worldwide</p>
         </div>
 
-        {/* header section */}
+        {/* project section */}
 
-        <div className="ml-7">
-          <div className="h-10 md:mt-16 md:ml-10 bg-no-repeat bg-contain md:grid md:grid-cols-none">
-            <div className="dc-logo mt-10 md:mt-0 md:h-[90px] h-10 bg-no-repeat bg-contain"></div>
-            {/* <p className="text text-end font-semibold mt-4 md:text-3xl md:mt-2 md:ml-32 md:px-7 absolute inline-block">Our Project</p>
-            <p className="text text-end brown font-semibold mt-8 md:text-3xl md:mt-12 md:ml-32 md:px-7 absolute inline-block">DeCharcoal Coco</p> */}
+        <div className="main-bg md:pb-14">
+          <h1 className="text h-full py-10 md:py-20 mt-20 text-center font-bold text-4xl">OUR PROJECT</h1>
 
-            {/* <p className="text md:text-3xl text-end font-semibold right-7 md:px-7 absolute inline-block">Our Project</p> */}
-            <p className="text md:text-3xl text-end font-semibold mt-2 md:mt-2 md:right-7 md:px-7 absolute inline-block">Our Project</p>
-            <p className="brown md:text-3xl text-end font-semibold mt-8 md:mt-12 md:right-7 md:px-7 md:py-2 absolute inline-block">DeCharcoal Coco</p>
+          <div className="grid md:grid-cols-3 grid-rows-none md:mx-40">
+
+            <div className="dc-logo h-[82px] w-[125px] lg:h-[165px] lg:w-[250px] mx-auto bg-contain"></div>
+            <div className="dc-logo h-[82px] w-[125px] lg:h-[165px] lg:w-[250px] mx-auto bg-contain"></div>
+            <div className="dc-logo h-[82px] w-[125px] lg:h-[165px] lg:w-[250px] mx-auto bg-contain"></div>
+
+          </div>
+
+          
+
+          <div className="text h-full mt-10 text-center mx-5 md:mx-20 lg:mx-64">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ad officiis dolores in excepturi, voluptatem quas iure ipsum ducimus aut unde minima explicabo nam eveniet? Quibusdam impedit odit, in eveniet dolorem libero maiores ipsum nesciunt qui ipsa architecto quis nihil.</p>
           </div>
         </div>
 
-        {/* header section */}
+        {/* project section */}
 
         {/* product section */}
 
         <div id="product" className="product main-bg md:pb-14 h-auto">
           <h1 className="text h-full py-20 mt-20 text-center font-bold text-4xl">PRODUCT</h1>
 
-          <div className="grid lg:grid-cols-3 md:mx-20 z-0 grid-rows-none">
-            <div className="md:grid-rows-2 md:pt-10 lg:pt-0">
-              <div className="product1 rounded-3xl h-64 w-64 xl:h-[400px] xl:w-[400px] sisha mx-auto bg-contain hover:-translate-y-10 hover:scale-110 duration-300"></div>
-              <div className="text font-bold text-2xl pt-5 text-center grid grid-rows-none">
-                <p>Sisha/Hookah <span className="brown">Charcoal </span>Briquette</p>
+          <div className="grid lg:grid-cols-3 md:mx-20 z-0 grid-rows-none justify-center w-full">
+
+            {/* div.col-span-3.flex.justify-center.items-center */}
+
+            <div className="md:grid-rows-2 md:pt-10 lg:pt-0 cardProduct px-5 md:w-3/4 rounded-3xl hover:-translate-y-10 hover:scale-110 duration-300">
+              <div className="product1 rounded-3xl mt-5 h-64 w-64 xl:h-[400px] xl:w-[400px] sisha mx-auto bg-contain"></div>
+              <div className="text font-bold text-2xl pt-5 text-center grid grid-rows-none mt-5">
                 <a href="./product/sisha-hookah">
-                  <button className="sec-bg hover:bg-yellow-800 text mx-auto mt-5 py-2 px-5 rounded-xl text-md font-semibold">Learn more</button>
+                  <p>Sisha/Hookah</p>
+                  <p className="brown font-normal">Charcoal Briquettes</p>
                 </a>
               </div>
             </div>
 
-            <div className="md:grid-rows-2 md:pt-10 lg:pt-0">
-              <div className="product2 rounded-3xl md:mt-0 xl:h-[400px] xl:w-[400px] mt-12 h-64 w-64 bbq mx-auto bg-contain hover:-translate-y-10 hover:scale-110 duration-300"></div>
-              <div className="text font-bold text-2xl pt-5 text-center grid grid-rows-none">
-                <p>BBQ <span className="brown">Charcoal </span>Briquette</p>
+            <div className="md:grid-rows-2 md:pt-10 lg:pt-0 cardProduct px-5 md:w-3/4 rounded-3xl hover:-translate-y-10 hover:scale-110 duration-300">
+              <div className="product2 rounded-3xl md:mt-5 xl:h-[400px] xl:w-[400px] mt-12 h-64 w-64 bbq mx-auto bg-contain"></div>
+              <div className="text font-bold text-2xl pt-5 text-center grid grid-rows-none mt-5">
                 <a href="./product/bbq">
-                  <button className="sec-bg hover:bg-yellow-800 text mx-auto mt-5 py-2 px-5 rounded-xl text-md font-semibold">Learn more</button>
+                  <p>Barbeque</p>
+                  <p className="brown font-normal">Charcoal Briquettes</p>
+                </a>
+              </div>
+            </div>
+
+            <div className="md:grid-rows-2 md:pt-10 lg:pt-0 cardProduct px-5 md:w-3/4 rounded-3xl hover:-translate-y-10 hover:scale-110 duration-300">
+              <div className="product2 rounded-3xl md:mt-5 xl:h-[400px] xl:w-[400px] mt-12 h-64 w-64 bbq mx-auto bg-contain"></div>
+              <div className="text font-bold text-2xl pt-5 text-center grid grid-rows-none mt-5">
+                <a href="./product/sisha-hookah">
+                  <p>Fingerstick</p>
+                  <p className="brown font-normal">Charcoal Briquettes</p>
                 </a>
               </div>
             </div>
             
-            <div className="md:grid-rows-2 md:pt-10 lg:pt-0">
-              <div className="product3 rounded-3xl md:mt-0 xl:h-[400px] xl:w-[400px] mt-12 h-64 w-64 coconut mx-auto bg-contain hover:-translate-y-10 hover:scale-110 duration-300"></div>
-              <div className="text font-bold text-2xl pt-5 text-center grid grid-rows-none">
-                <p>Coconut Shell <span className="brown">Charcoal</span></p>
-                <a href="./product/coconut-shell">
-                  <button className="sec-bg hover:bg-yellow-800 text mx-auto mt-5 py-2 px-5 rounded-xl text-md font-semibold">Learn more</button>
-                </a>
-              </div>
-            </div>
             
           </div>
 
@@ -170,9 +181,9 @@ export default function Home() {
         <div id="contact" className="contact main-bg pb-14">
           <h1 className="text h-full pb-16 md:py-20 text-center font-bold text-4xl">CONTACT <span className="brown">US</span></h1>
 
-          <div className="grid grid-rows-none lg:grid-cols-3 lg:mx-72 z-0">
+          <div className="grid grid-rows-none lg:grid-cols-3 lg:mx-72 z-0 gap-x-12 mb-10">
 
-            <div className="lg:grid lg:grid-rows-2">
+            <div className="lg:grid lg:grid-rows-2 cardProduct rounded-3xl">
               <div className="email h-20 w-20 lg:h-32 lg:w-32 rounded-full lg:box4 mx-auto bg-contain mb-16 mt-10">
                 <p className="brown font-bold lg:text-2xl text-center pt-28 lg:pt-36">EMAIL US</p>
               </div>
@@ -185,7 +196,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="lg:grid lg:grid-rows-2">
+            <div className="lg:grid lg:grid-rows-2 cardProduct rounded-3xl">
               <div className="office h-20 w-20 lg:h-32 lg:w-32 rounded-full lg:box4 mx-auto bg-contain mb-16 mt-10">
                 <p className="brown font-bold lg:text-2xl text-center pt-28 lg:pt-36">OFFICE</p>
               </div>
@@ -196,7 +207,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="lg:grid lg:grid-rows-2">
+            <div className="lg:grid lg:grid-rows-2 cardProduct rounded-3xl">
               <div className="phone h-20 w-20 lg:h-32 lg:w-32 rounded-full lg:box4 mx-auto bg-contain mb-16 mt-10">
                 <p className="brown font-bold lg:text-2xl text-center pt-28 lg:pt-36">PHONE</p>
               </div>

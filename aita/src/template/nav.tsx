@@ -8,22 +8,23 @@ export default function Header() {
         <ul className="list">
           <li className="m-item">
             <Link href="/#home">
-              <p className="md:text-xl md:mr-5">Home</p>
+              {/* <p className="md:text-xl md:mr-5">Home</p> */}
+              <button className="hover:bg-zinc-700 text-xl font-semibold py-2 px-4 rounded-full">Home</button>
             </Link>
           </li>
           <li className="m-item md:item">
             <Link href="/#product">
-            <p className="md:text-xl md:mr-5">Product</p>
+            <button className="hover:bg-zinc-700 text-xl font-semibold py-2 px-4 rounded-full">Product</button>
             </Link>
           </li>
           <li className="m-item md:item">
             <Link href="/#aboutus">
-            <p className="md:text-xl md:mr-5">About Us</p>
+            <button className="hover:bg-zinc-700 text-xl font-semibold py-2 px-4 rounded-full">About Us</button>
             </Link>
           </li>
           <li className="m-item md:item brown">
             <Link href="/#contact">
-            <p className="md:text-xl">Contact</p>
+            <button className="hover:bg-zinc-700 text-xl font-semibold py-2 px-4 rounded-full">Contact</button>
             </Link>
           </li>
         </ul>
